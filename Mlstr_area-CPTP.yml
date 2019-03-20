@@ -1,0 +1,1298 @@
+!!org.obiba.opal.core.domain.taxonomy.Taxonomy
+"name": "Mlstr_area_CPTP"
+"title":
+  "en": "Areas of information"
+  "fr": "Aires d'information"
+"description":
+  "en": "Information classification developed by Maelstrom Research"
+  "fr": "Classification des informations développée par Maelstrom Research"
+"attributes": {}
+"author": "Maelstrom Research"
+"keywords": {}
+"license": "CC BY-NC-ND 4.0"
+"vocabularies":
+- "name": "Sociodemographic_economic_characteristics"
+  "title":
+    "en": "Socio-demographic and economic characteristics"
+    "fr": "Caractéristiques socio-démographiques et économiques"
+  "description":
+    "en": "Information about socio-demographic and economic characteristics."
+    "fr": "Informations au sujet des caractéristiques socio-démographiques et économiques."
+  "attributes": {}
+  "keywords": {}
+  "terms":
+  - "name": "Age"
+    "title":
+      "en": "Age/birthdate"
+      "fr": "Âge/date de naissance"
+    "description":
+      "en": "Information about current age (e.g. age of participant) or birthdate."
+      "fr": "Informations au sujet de l’âge actuel (ex. âge du participant) ou de\
+        \ la date de naissance."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "Sex"
+    "title":
+      "en": "Sex/gender"
+      "fr": "Sexe/genre"
+    "description":
+      "en": "Information about sex (e.g. biological characteristics) or gender identity. "
+      "fr": "Informations au sujet du sexe (ex. caractéristiques biologiques) ou de\
+        \ l’identité de genre."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "Twin"
+    "title":
+      "en": "Twin"
+      "fr": "Jumeau"
+    "description":
+      "en": "Information about the fact of being a twin or born from a multiple birth\
+        \ (e.g. zygosity – identical or not)."
+      "fr": "Informations au sujet du fait d’être un jumeau ou d’être né d’une naissance\
+        \ multiple (ex. zygosité – identique ou non)."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "Marital_status"
+    "title":
+      "en": "Marital/partner status"
+      "fr": "État matrimonial"
+    "description":
+      "en": "Information about past and current relationship status (e.g. married,\
+        \ divorced, single, living with a partner)."
+      "fr": "Informations au sujet des relations matrimoniales passées et actuelles\
+        \ (ex. marié, divorcé, célibataire, vivant avec un conjoint)."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "Family_hh_struct"
+    "title":
+      "en": "Family and household structure"
+      "fr": "Structure familiale et domestique"
+    "description":
+      "en": "Information about past and current family and household structure (e.g.\
+        \ number of individuals living with the participant, number of siblings).\n\
+        Also see Dom. 16 \"Social environment and relationships\", under 'Social network'."
+      "fr": "Informations au sujet de la structure familiale et domestique passée\
+        \ et actuelle (ex. nombre de personnes qui vivent avec le participant, nombre\
+        \ de frères et sœurs).\nVoir aussi Dom. 16 « Environnement et relations sociales\
+        \ », sous 'Réseau social'."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "Education"
+    "title":
+      "en": "Education"
+      "fr": "Éducation"
+    "description":
+      "en": "Information about education (e.g. highest level of education achieved,\
+        \ years of schooling completed).\nAlso see Dom. 15 \"Preschool, school and\
+        \ professional life\", under 'School life' for information about school environment."
+      "fr": "Informations au sujet de la scolarité (ex. niveau le plus élévé de scolarité\
+        \ atteint, nombre d’années de scolarité complétées).\nVoir aussi Dom. 15 «\
+        \ Vie préscolaire, scolaire et professionnelle », sous 'Vie scolaire' pour\
+        \ des informations en lien avec l’environnement scolaire."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "Residence"
+    "title":
+      "en": "Residence"
+      "fr": "Résidence"
+    "description":
+      "en": "Information about past and current locations where an individual dwells\
+        \ (e.g. address, region, country, homelessness)."
+      "fr": "Informations au sujet des endroits passés et actuels dans lesquels l’\
+        individu a vécu (ex. adresse, région, pays, sans domicile fixe)."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "Birth_place"
+    "title":
+      "en": "Birthplace"
+      "fr": "Lieu de naissance"
+    "description":
+      "en": "Information about birthplace (e.g. country of birth)."
+      "fr": "Informations au sujet du lieu de naissance (ex. pays de naissance)."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "Citizenship"
+    "title":
+      "en": "Citizenship and immigrant status"
+      "fr": "Citoyenneté et statut d’immigration"
+    "description":
+      "en": "Information about citizenship and immigrant status (e.g. landed immigrant,\
+        \ Canadian citizen, number of years living in a given country)."
+      "fr": "Informations au sujet de la citoyenneté et du statut d’immigrant (ex.\
+        \ immigrant reçu, citoyen Canadien, nombre d’années résidant dans un pays\
+        \ donné)."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "Ethnic_race_religion"
+    "title":
+      "en": "Ethnicity, race and religion"
+      "fr": "Ethnicité, race et religion\t"
+    "description":
+      "en": "Information about ethnicity (e.g. Italian, Chinese, Japanese), race (e.g.\
+        \ Caucasian, Black, Asian) and religion (e.g. Christian, Muslim, Buddhist). "
+      "fr": "Informations au sujet de l’ethnicité (ex. Italien, Chinois, Japonais),\
+        \ de la race (ex. Caucasien, Noir, Asiatique) et de la religion (ex. chré\
+        tien, musulman, bouddhiste)."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "Language"
+    "title":
+      "en": "Language"
+      "fr": "Langue"
+    "description":
+      "en": "Information about linguistic background and knowledge (e.g. French, English\
+        \ mother tongue, knowledge of Spanish)."
+      "fr": "Informations au sujet des origines et connaissances linguistiques (ex.\
+        \ français, langue maternelle anglais, connaissance de l’espagnol)."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "Labour_retirement"
+    "title":
+      "en": "Labour force and retirement"
+      "fr": "Emploi et retraite"
+    "description":
+      "en": "Information about past and current labour force participation and retirement\
+        \ (e.g. employment status, sector of employment, participation in the military,\
+        \ years worked, start of retirement).\nAlso see Dom. 15 \"Preschool, school\
+        \ and professional life\", under 'Professional life' for information about\
+        \ job environment."
+      "fr": "Informations au sujet de la participation passée et actuelle au marché\
+        \ du travail et de la retraite (ex. statut d’emploi, secteur d’emploi, participation\
+        \ dans les Forces Armées, nombre d’années de travail, début de la retraite).\n\
+        Voir aussi Dom. 15 « Vie préscolaire, scolaire et professionnelle», sous 'Vie\
+        \ professionnelle' pour des informations en lien avec l’environnement de travail."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "Income"
+    "title":
+      "en": "Income, possessions, and benefits"
+      "fr": "Revenu, possessions et avantages sociaux"
+    "description":
+      "en": "Information about past and current income, possessions, and benefits\
+        \ from work (e.g. income before tax, health insurance coverage, home ownership)."
+      "fr": "Informations au sujet du revenu passé et actuel, des biens et des avantages\
+        \ sociaux reliés au travail (ex. revenu avant impôt, assurance santé, proprié\
+        taire d’un logement)."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "Other_sociodemogr_chars"
+    "title":
+      "en": "Other socio-demographic and economic characteristics"
+      "fr": "Autres caractéristiques socio-démographiques et économiques"
+    "description":
+      "en": "Information about other socio-demographic and economic characteristics\
+        \ (e.g. being adopted)."
+      "fr": "Informations au sujet d’autres caractéristiques socio-démographiques\
+        \ et économiques (ex. avoir été adopté)."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+- "name": "Lifestyle_behaviours"
+  "title":
+    "en": "Lifestyle and behaviours"
+    "fr": "Habitudes de vie et comportements"
+  "description":
+    "en": "Information about past and current lifestyle, behaviours and activities."
+    "fr": "Informations passées et actuelles au sujet des habitudes de vie, des comportements\
+      \ et des activités."
+  "attributes": {}
+  "keywords": {}
+  "terms":
+  - "name": "Tobacco"
+    "title":
+      "en": "Tobacco"
+      "fr": "Tabagisme"
+    "description":
+      "en": "Information about the consumption of tobacco in any form (e.g. quantity\
+        \ and frequency of smoking, chewing or sniffing) and associated behaviours."
+      "fr": "Informations au sujet de la consommation des produits du tabac sous toutes\
+        \ ses formes (ex. quantité et fréquence de consommation de produits du tabac\
+        \ fumés, mâchés ou inhalés) et autres comportements associés."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "Alcohol"
+    "title":
+      "en": "Alcohol"
+      "fr": "Alcool"
+    "description":
+      "en": "Information about the consumption of alcoholic beverages (e.g. frequency,\
+        \ quantity and type of alcohol consumed) and associated behaviours."
+      "fr": "Informations au sujet de la consommation de boissons alcoolisées (ex.\
+        \ fréquence, quantité et type d’alcool consommé) et autres comportements associé\
+        s."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "Nutrition"
+    "title":
+      "en": "Nutrition"
+      "fr": "Nutrition"
+    "description":
+      "en": "Information about the consumption of food (e.g. type, quantity and frequency\
+        \ of food intake) and associated behaviours. \nAlso see Dom. 7 \"Medication\
+        \ and supplements\", under 'Medication and supplement intake' for information\
+        \ about the consumption of vitamins and supplements."
+      "fr": "Informations au sujet de la consommation de nourriture (ex. type, quantité\
+        \ et fréquence de la consommation alimentaire) et autres comportements associé\
+        s.\nVoir aussi Dom. 7 « Médicaments et suppléments », sous 'Médicaments et\
+        \ suppléments' pour des informations en lien avec la consommation de vitamines\
+        \ et suppléments."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "Breastfeeding"
+    "title":
+      "en": "Breastfeeding"
+      "fr": "Allaitement"
+    "description":
+      "en": "Information about the mother nursing an infant at the breast or the child\
+        \ being breastfed (e.g. duration and frequency of breastfeeding)."
+      "fr": "Informations au sujet de la mère nourrissant un enfant au sein ou de\
+        \ l’enfant étant allaité (ex. durée et fréquence de l’allaitement)."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "Phys_act"
+    "title":
+      "en": "Physical activity"
+      "fr": "Activité physique"
+    "description":
+      "en": "Information about the type, frequency and intensity of physical activity\
+        \ such as exercises and sports (e.g. jogging, playing hockey), daily activities\
+        \ (e.g. household chores, walking the dog) or sedentarity (e.g. lounging on\
+        \ the couch)."
+      "fr": "Informations au sujet du type, de la fréquence et de l’intensité de l’\
+        activité physique tels que les exercises et les sports (ex. jogging, hockey),\
+        \ les activités quotidiennes (ex. corvées ménagères, promener le chien) ou\
+        \ la sédentarité (ex. se prélasser sur le canapé)."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "Sleep"
+    "title":
+      "en": "Sleep"
+      "fr": "Sommeil"
+    "description":
+      "en": "Information about the type, frequency and intensity of sleep behaviours\
+        \ (e.g. hours of sleep, quality of sleep). "
+      "fr": "Informations au sujet du type, de la fréquence et de l’intensité des\
+        \ comportements liés au sommeil (ex. nombre d’heures de sommeil, qualité du\
+        \ sommeil)."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "Tech_devices"
+    "title":
+      "en": "Technological devices"
+      "fr": "Appareils technologiques"
+    "description":
+      "en": "Information about the use of electronic devices and associated technologies\
+        \ (e.g. computer, phone, Internet)."
+      "fr": "Informations au sujet de l’utilisation des appareils électroniques et\
+        \ des technologies associées (ex. ordinateur, téléphone, Internet)."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "Misbehav_crim"
+    "title":
+      "en": "Misbehaviour and criminality"
+      "fr": "Mauvaise conduite et criminalité"
+    "description":
+      "en": "Information about the type, frequency and consequences of misbehaviour\
+        \ and related legal problems (e.g. number of speeding tickets, shoplifting)."
+      "fr": "Informations au sujet du type, de la fréquence et des conséquences de\
+        \ la mauvaise conduite et des problèmes judiciaires associés (ex. nombre de\
+        \ contraventions pour excès de vitesse, vol à l'étalage)."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "Other_lifestyle"
+    "title":
+      "en": "Other and unspecified lifestyle information"
+      "fr": "Autres informations en lien avec les habitudes de vie"
+    "description":
+      "en": "Information about other (e.g. use of tanning bed) or unspecified lifestyle\
+        \ and behaviours that falls into several categories (e.g. use of tobacco and\
+        \ alcohol)."
+      "fr": "Informations au sujet d’autres habitudes de vie et comportements (ex.\
+        \ utilisation du lit de bronzage) et habitudes de vie et comportements lié\
+        s à plusieurs catégories à la fois (ex. tabagisme et consommation d’alcool)."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+- "name": "Reproduction"
+  "title":
+    "en": "Birth, pregnancy and reproductive health history"
+    "fr": " Naissance, grossesse et antécédents de santé reproductive"
+  "description":
+    "en": "Information about birth and current or past reproductive health history\
+      \ of mothers and fathers."
+    "fr": "Informations au sujet de la naissance et de la santé reproductive passé\
+      e ou actuelle des mères et des pères."
+  "attributes": {}
+  "keywords": {}
+  "terms":
+  - "name": "Menstr_menop_andropause"
+    "title":
+      "en": "Puberty, menstruation, menopause and andropause"
+      "fr": "Puberté, menstruation, ménopause et andropause"
+    "description":
+      "en": "Information about puberty, menstruation, menopause, andropause and related\
+        \ events (e.g. age at first menstruation, age menses stopped)."
+      "fr": "Informations au sujet de la puberté, des menstruations, de la ménopause,\
+        \ de l’andropause et des évènements associés (ex. âge des premières menstruations,\
+        \ âge de la ménopause)."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "Contraception"
+    "title":
+      "en": "Contraception"
+      "fr": "Contraception "
+    "description":
+      "en": "Information about contraception and family planning (e.g. methods of\
+        \ contraception used, child spacing)."
+      "fr": "Informations au sujet de la contraception et du planning familial (ex.\
+        \ méthodes de contraception utilisées, espacement des naissances)."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "Pregnancy_delivery"
+    "title":
+      "en": "Pregnancy, delivery and birth"
+      "fr": "Grossesse, accouchement et naissance"
+    "description":
+      "en": "Information about pregnancy, gravidity, labour, delivery and postpartum\
+        \ including information about any outcomes (e.g. gestational age, expecting/giving\
+        \ birth to twins, parity).\nAlso see Dom. 5 \"Diseases (ICD-10)\", under 'Certain\
+        \ conditions originating in the perinatal period (P00-P96)' for information\
+        \ about birth outcomes."
+      "fr": "Informations au sujet de la grossesse, de la gravidité, de l’accouchement\
+        \ et de la période postpartum incluant les informations relatives aux résultats\
+        \ de la grossesse (ex. âge gestationnel, attendre/donner naissance à des jumeaux,\
+        \ parité).\nVoir aussi Dom. 5 « Maladies (CIM-10) », sous 'Certaines affections\
+        \ dont l’origine se situe dans la période périnatale (P00-P96)' pour des informations\
+        \ en lien avec les résultats de la grossesse."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "Reprod_sexual_problems"
+    "title":
+      "en": "Fertility and sexual health"
+      "fr": "Fertilité et santé sexuelle"
+    "description":
+      "en": "Information about females' and males' fertility and sexual health (e.g.\
+        \ infertility problems, assisted reproduction). "
+      "fr": "Informations au sujet de la fertilité et de la santé sexuelle des femmes\
+        \ et des hommes (ex. problèmes d’infertilité, reproduction assistée)."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+- "name": "Health_status_functional_limitations"
+  "title":
+    "en": "Perception of health, quality of life, development and functional limitations"
+    "fr": "Perception de la santé, qualité de vie, développement et limitations fonctionnelles"
+  "description":
+    "en": "Information about perception of general health, quality of life, child\
+      \ development and decline of functional capacities. "
+    "fr": "Informations au sujet de la perception de la santé générale, de la qualité\
+      \ de vie, du dévéloppement de l’enfant et du déclin des capacités fonctionnelles."
+  "attributes": {}
+  "keywords": {}
+  "terms":
+  - "name": "Perc_health"
+    "title":
+      "en": "Perception of health"
+      "fr": "Perception de la santé"
+    "description":
+      "en": "Information about the perception of health (e.g. rating of own health\
+        \ compared to others). It refers to the subjective rating of general health\
+        \ considering physical and mental aspects."
+      "fr": "Informations au sujet de la perception de la santé (ex. évaluation de\
+        \ sa santé en comparaison avec la santé des autres). Cela refère à l’évaluation\
+        \ subjective de la santé générale, considérant les aspects physiques et mentaux\
+        \ de la santé."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "Qual_life"
+    "title":
+      "en": "Quality of life"
+      "fr": "Qualité de vie"
+    "description":
+      "en": "Information about past and current quality of life, well-being and life\
+        \ satisfaction (e.g. subjective well-being, assessment of life enjoyment as\
+        \ a whole, happiness). "
+      "fr": "Informations au sujet de la qualité de vie passée et actuelle, du bien-ê\
+        tre et de la satisfaction face à la vie (ex. bien-être subjectif, évaluation\
+        \ de la capacité à profiter de la vie, bonheur)."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "Life_dev"
+    "title":
+      "en": "Life course development (under development)"
+      "fr": "Développement au cours de la vie"
+    "description":
+      "en": "Information about child development (e.g. motor, social, emotional and\
+        \ language development). \nAlso see Dom. 13 \"Cognition, personality and psychological\
+        \ measures and assessments\", under 'Cognitive functioning'."
+      "fr": "Informations au sujet du dévéloppement de l’enfant (ex. développement\
+        \ moteur, social, émotionnel et langagier).\nVoir aussi Dom. 13 « Cognition,\
+        \ personnalité et autres mesures et évaluations psychologiques », sous 'Fonctionnement\
+        \ cognitif'."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "Use_devices"
+    "title":
+      "en": "Use of assistive devices"
+      "fr": "Utilisation de dispositifs d’aide"
+    "description":
+      "en": "Information about the use of assistive devices to enhance and increase\
+        \ independence in performing activities of daily living (e.g. glasses, hearing\
+        \ aids, crutches)."
+      "fr": "Informations au sujet de l’utilisation de dispositifs d’aide afin d’\
+        améliorer et d’augmenter l’indépendance dans l’accomplissement des activité\
+        s de vie quotidienne (ex. lunettes, appareils auditifs, béquilles)."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+- "name": "Diseases"
+  "title":
+    "en": "Diseases"
+    "fr": "Maladies"
+  "description":
+    "en": "Information about past and current disease as categorized in ICD-10."
+    "fr": "Informations au sujet de maladies passées et actuelles telles que caté\
+      gorisées dans la CIM-10."
+  "attributes": {}
+  "keywords": {}
+  "terms":
+  - "name": "Infectious_dis"
+    "title":
+      "en": "Certain infectious and parasitic diseases (A00-B99)"
+      "fr": "Certaines maladies infectieuses et parasitaires (A00-B99)"
+    "description":
+      "en": "Information about past and current infectious and parasitic diseases\
+        \ generally recognized as communicable or transmissible (e.g. HIV/Aids, Malaria,\
+        \ Tuberculosis)."
+      "fr": "Informations au sujet de maladies infectieuses et parasitaires passé\
+        es et actuelles, généralement reconnues comme contagieuses ou transmissibles\
+        \ (ex. VIH/SIDA, paludisme, tuberculose)."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "Neoplasms"
+    "title":
+      "en": "Neoplasms (C00-D48)"
+      "fr": "Tumeurs (C00-D48)"
+    "description":
+      "en": "Information about past and current tumours (e.g. benign and malignant\
+        \ neoplasms, in situ neoplasms)."
+      "fr": "Informations au sujet de tumeurs passées ou actuelles (ex. tumeurs bé\
+        nignes et malignes, tumeurs in situ)."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "Blood_immune_dis"
+    "title":
+      "en": "Diseases of the blood and blood-forming organs and certain disorders\
+        \ involving the immune mechanism (D50-D89)"
+      "fr": "Maladies du sang et des organes hématopoïétiques et certaines troubles\
+        \ du système immunitaire (D50-D89)"
+    "description":
+      "en": "Information about past and current diseases of the blood and blood-forming\
+        \ organs and certain disorders involving the immune mechanism (e.g. nutritional\
+        \ anaemias, coagulation defects)."
+      "fr": "Informations au sujet de maladies du sang et des organes hématopoïétiques\
+        \ passées et actuelles et de certains troubles du système immunitaire (ex.\
+        \ anémies nutritionnelles, anomalies de la coagulation)."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "Endocrine_metabolic_dis"
+    "title":
+      "en": "Endocrine, nutritional and metabolic diseases (E00-E90)"
+      "fr": "Maladies endocriniennes, nutritionnelles et métaboliques (E00-E90)"
+    "description":
+      "en": "Information about past and current endocrine, nutritional and metabolic\
+        \ diseases (e.g. diabetes, thyroid and metabolic disorders, malnutrition)."
+      "fr": "Informations au sujet de maladies endocriniennes, nutritionnelles et\
+        \ métaboliques passées et actuelles (ex. diabète, troubles thyroïdiens et\
+        \ métaboliques, malnutrition)."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "Mental_behav_dis"
+    "title":
+      "en": "Mental and behavioural disorders (F00-F99)"
+      "fr": "Troubles mentaux et du comportement (F00-F99)"
+    "description":
+      "en": "Information about past and current mental and behavioural disorders (e.g.\
+        \ dementia, schizophrenia, chronic PTSD, mood affective disorders, mental\
+        \ disorders from substance abuse)."
+      "fr": "Informations au sujet de troubles mentaux et du comportement passés et\
+        \ actuels (ex. démence, schizophrénie, syndrome chronique d’État de Stress\
+        \ Post-Traumatique SSPT, troubles de l’humeur (affectifs), troubles mentaux\
+        \ liés à la toxicomanie)."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "Nervous_sys_dis"
+    "title":
+      "en": "Diseases of the nervous system (G00-G99)"
+      "fr": "Maladies du système nerveux (G00-G99)"
+    "description":
+      "en": "Information about past and current diseases of the nervous system (e.g.\
+        \ Parkinson, Alzheimer, Huntington, inflammatory diseases of the central nervous\
+        \ system)."
+      "fr": "Informations au sujet de maladies du système nerveux passées et actuelles\
+        \ (ex. Parkinson, Alzheimer, Huntington, maladies inflammatoires du systè\
+        me nerveux central)."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "Eye_adnexa_dis"
+    "title":
+      "en": "Diseases of the eye and adnexa (H00-H59)"
+      "fr": "Maladies de l’oeil et de ses annexes (H00-H59)"
+    "description":
+      "en": "Information about past and current diseases of the eye and adnexa (e.g.\
+        \ glaucoma, conjunctivitis, cataracts, strabismus, low vision)."
+      "fr": "Informations au sujet de maladies de l’œil et de ses annexes passées\
+        \ et actuelles (ex. glaucome, conjonctivite, cataractes, strabisme, baisse\
+        \ de la vision)."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "Ear_mastoid_dis"
+    "title":
+      "en": "Diseases of the ear and mastoid process (H60-H95)"
+      "fr": "Maladies de l’oreille et de l’apophyse mastoïde (H60-H95)"
+    "description":
+      "en": "Information about past and current diseases of the ear and mastoid process\
+        \ (e.g. otitis, mastoiditis, labyrinthitis, unspecified hearing loss)."
+      "fr": "Informations au sujet de maladies de l’oreille et de l’apophyse mastoï\
+        de passées et actuelles (ex. otite, mastoïdite, labyrinthite, perte auditive\
+        \ non spécifiée)."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "Circulatory_sys_dis"
+    "title":
+      "en": "Diseases of the circulatory system (I00-I99)"
+      "fr": "Maladies de l’appareil circulatoire (I00-I99)"
+    "description":
+      "en": "Information about past and current diseases of the circulatory system\
+        \ (e.g. hypertension, ischaemic heart diseases, cerebrovascular diseases)."
+      "fr": "Informations au sujet de maladies de l’appareil circulatoire passées\
+        \ et actuelles (ex. hypertension, maladies cardiaques ischémiques, maladies\
+        \ cérébrovasculaires)."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "Respiratory_sys_dis"
+    "title":
+      "en": "Diseases of the respiratory system (J00-J99)"
+      "fr": "Maladies de l’appareil respiratoire (J00-J99)"
+    "description":
+      "en": "Information about past and current diseases of the respiratory system\
+        \ (e.g. asthma, bronchitis, emphysema, chronic obstructive pulmonary disease\
+        \ (COPD), pneumonia, influenza, nasopharyngitis, rhinopharyngitis - \"common\
+        \ cold\")."
+      "fr": "Informations au sujet de maladies de l’appareil respiratoire passées\
+        \ et actuelles (ex. asthme, bronchite, emphysème, maladie pulmonaire obstructive\
+        \ chronique MPOC, pneumonie, influenza, nasopharyngite, rhinopharyngite –\
+        \ « rhume »)."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "Digestive_sys_dis"
+    "title":
+      "en": "Diseases of the digestive system (K00-K93)"
+      "fr": "Maladies de l’appareil digestif (K00-K93)"
+    "description":
+      "en": "Information about past and current diseases of the digestive system (e.g.\
+        \ Crohn's disease, hepatitis, irritable bowel disease, cirrhosis, colitis)."
+      "fr": "Informations au sujet de maladies de l’appareil digestif passées et actuelles\
+        \ (ex. maladie de Crohn, hépatite, syndrome du côlon irritable, cirrhose,\
+        \ colite)."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "Skin_subcutaneous_dis"
+    "title":
+      "en": "Diseases of the skin and subcutaneous tissue (L00-L99)"
+      "fr": "Maladies de la peau et du tissu cellulaire sous-cutané (L00-L99)"
+    "description":
+      "en": "Information about past and current diseases of the skin and subcutaneous\
+        \ tissue (e.g. dermatitis, eczema, urticaria, erythema)."
+      "fr": "Informations au sujet de maladies de la peau et du tissu cellulaire sous-cutané\
+        \ passées et actuelles (ex. dermatite, eczéma, urticaire, erythème)."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "Musculoskeletal_sys_dis"
+    "title":
+      "en": "Diseases of the musculoskeletal system and connective tissue (M00-M99)"
+      "fr": "Maladies du système ostéo-articulaire, des muscles et du tissu conjonctif\
+        \ (M00-M99)"
+    "description":
+      "en": "Information about past and current diseases of the musculoskeletal system\
+        \ and connective tissue (e.g. arthritis, arthrosis, lupus, low back pain)."
+      "fr": "Informations au sujet de maladies du système ostéo-articulaire, des muscles\
+        \ et du tissu conjonctif passées et actuelles (ex. arthrite, arthrose, lupus,\
+        \ douleurs au bas du dos)."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "Genitourinary_sys_dis"
+    "title":
+      "en": "Diseases of the genitourinary system (N00-N99)"
+      "fr": "Maladies de l’appareil génito-urinaire (N00-N99)"
+    "description":
+      "en": "Information about past and current diseases of the genitourinary system\
+        \ (e.g. renal failure, cystitis, UTI, prostate inflammation, mastitis, endometriosis)."
+      "fr": "Informations au sujet de maladies de l’appareil génito-urinaire passé\
+        es et actuelles (ex. insuffisance rénale, cystite, infection du tractus urinaire\
+        \ ITU, inflammation de la prostate, mastite, endométriose)."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "Pregnancy_childbirth"
+    "title":
+      "en": "Pregnancy, childbirth and the puerperium (O00-O9A)"
+      "fr": "Grossesse, accouchement et puerpéralité (O00-O9A)"
+    "description":
+      "en": "Information about conditions related to or aggravated by pregnancy, childbirth,\
+        \ or by puerperium (maternal causes or obstetric causes) (e.g. eclampsia,\
+        \ placenta praevia). Newborn information is excluded here.\nAlso see Dom.\
+        \ 3 \"Birth, pregnancy and reproductive health history\", under 'Pregnancy,\
+        \ delivery, and birth' for information about pregnancy and delivery."
+      "fr": "Informations au sujet des conditions reliées à ou aggravées par la grossesse,\
+        \ l’accouchement, ou la puerpéralité (causes maternelles ou obstétriques)\
+        \ (ex. éclampsie, placenta praevia). Les informations sur les nouveau-nés\
+        \ ne sont pas incluses ici.\nVoir aussi Dom. 3 « Naissance, grossesse et anté\
+        cédents de santé reproductive », sous 'Grossesse, accouchement et naissance'\
+        \ pour des informations en lien avec la grossesse et l’accouchement."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "Perinatal_cond"
+    "title":
+      "en": "Certain conditions originating in the perinatal period (P00-P96)"
+      "fr": "Certaines affections dont l’origine se situe dans la période périnatale\
+        \ (P00-P96)"
+    "description":
+      "en": "Information about effects of complications of pregnancy, labour and delivery\
+        \ on the fetus and newborn, including birth traumas, disorders and infections\
+        \ specific to the perinatal period (e.g. birth injury, respiratory distress\
+        \ of newborn). Maternal information is excluded here.\nAlso see Dom. 3 \"\
+        Birth, pregnancy and reproductive health history\", under 'Pregnancy, delivery,\
+        \ and birth' for information about birth."
+      "fr": "Informations au sujet des effets de complications de la grossesse et\
+        \ de l’accouchement sur le fœtus et le nouveau-né incluant les traumatismes\
+        \ de naissance, les troubles et infections spécifiques à la période périnatale\
+        \ (ex. blessure reliée à la naissance, détresse respiratoire du nouveau-né\
+        ). Les informations sur la mère ne sont pas incluses ici.\nVoir aussi Dom.\
+        \ 3 « Naissance, grossesse et antécédents de santé reproductive », sous 'Grossesse,\
+        \ accouchement et naissance' pour des informations en lien avec la naissance."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "Cong_malform_chrom_abnor"
+    "title":
+      "en": "Congenital malformations, deformations and chromosomal abnormalities\
+        \ (Q00-Q99)"
+      "fr": "Malformations congénitales, déformations et anomalies chromosomiques\
+        \ (Q00-Q99)"
+    "description":
+      "en": "Information about congenital malformations, deformations and chromosomal\
+        \ abnormalities (e.g. cleft lip and palate, spina bifida, aortic septal defect)."
+      "fr": "Informations au sujet de malformations congénitales, déformations et\
+        \ anomalies chromosomiques (ex. fente labiale et palatine, spina bifida, malformation\
+        \ du septum aortique)."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "Injury_poisoning"
+    "title":
+      "en": "Injury, poisoning and certain other consequences of external causes (S00-T98)"
+      "fr": "Lésions traumatiques, empoisonnements et certaines autres conséquences\
+        \ de causes externes (S00-T98)\t"
+    "description":
+      "en": "Information about past and current injury, poisoning and certain other\
+        \ consequences of external causes (e.g. burns, fractures, cuts, corrosions,\
+        \ poisoning, allergies)."
+      "fr": "Informations au sujet de lésions traumatiques, empoisonnements et certaines\
+        \ autres conséquences de causes externes passées et actuelles (ex. brûlures,\
+        \ fractures, coupures, empoisonnements, allergies)."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "Morbidity_mortality_ext"
+    "title":
+      "en": "External causes of morbidity and mortality (V01-Y98)"
+      "fr": "Causes externes de morbidité et de mortalité (V01-Y98)"
+    "description":
+      "en": "Information about past and current external causes of morbidity and mortality\
+        \ (e.g. traffic injuries, falls, explosion, intentional self-harm)."
+      "fr": "Informations au sujet de causes externes de morbidité et de mortalité\
+        \ passées et actuelles (ex. blessures reliées à la circulation, chutes, explosions,\
+        \ blessures auto-infligées)."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "Other_dis"
+    "title":
+      "en": "Diseases without precise specification or falling into multiple categories"
+      "fr": "Maladies sans spécification précise ou en lien avec de multiples caté\
+        gories"
+    "description":
+      "en": "Information about past and current diseases without specification of\
+        \ exact disease (e.g. number of chronic diseases, unspecified diseases) or\
+        \ combination of diseases falling into different categories (e.g. Alzheimer\
+        \ or dementia, developmental disability)."
+      "fr": "Informations au sujet de maladies passées et actuelles sans spécification\
+        \ exacte (ex. nombre de maladies chroniques, maladies non-spécifiées) ou une\
+        \ combinaison de maladies appartenant à différentes catégories (ex. Alzheimer\
+        \ ou démence, trouble du dévéloppement)."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+- "name": "Symptoms_signs"
+  "title":
+    "en": "Symptoms and signs"
+    "fr": "Symptômes et signes"
+  "description":
+    "en": "Information about past and current symptoms and signs as categorized in\
+      \ ICD-10. "
+    "fr": "Informations au sujet de symtômes et signes passés et actuels tels que\
+      \ catégorisés dans la CIM-10."
+  "attributes": {}
+  "keywords": {}
+  "terms":
+  - "name": "Cognitive_perc_emotional_sympt"
+    "title":
+      "en": "Symptoms and signs involving cognition, perception, emotional state and\
+        \ behaviour (R40-R46)"
+      "fr": "Symptômes et signes relatifs à la connaissance, la perception, l’humeur\
+        \ et le comportement (R40-R46)"
+    "description":
+      "en": "Information about past and current symptoms and signs involving cognition,\
+        \ perception, emotional state and behaviour (e.g. somnolence, dizziness, hallucinations,\
+        \ nervousness, hostility). \nAlso see Dom. 13 \"Cognition, personality and\
+        \ psychological measures and assessments\" for symptoms that might be part\
+        \ of cognitive, personality or psychological scales."
+      "fr": "Informations au sujet de symptômes et signes passés et actuels impliquant\
+        \ la cognition, la perception, l’état émotionnel et le comportement (ex. somnolence,\
+        \ étourdissements, hallucinations, nervosité, hostilité).\nVoir aussi Dom.\
+        \ 13 « Cognition, personnalité et autres mesures et évaluations psychologiques\
+        \ » pour les symptômes qui pourraient impliquer les échelles cognitives, de\
+        \ personnalité ou psychologiques."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+- "name": "Medication_supplements"
+  "title":
+    "en": "Medication and supplements"
+    "fr": "Médicaments et suppléments"
+  "description":
+    "en": "Information about medication (whether prescribed or over the counter),\
+      \ including drugs and supplements (e.g. vitamins, plant extracts) used to treat\
+      \ or prevent diseases or to alleviate symptoms of diseases."
+    "fr": "Informations au sujet de la médication (prescrite ou en vente libre), incluant\
+      \ les médicaments et les suppléments (ex. vitamines, extraits de plantes) utilisé\
+      s pour traiter ou prévenir des maladies ou pour soulager des symptômes."
+  "attributes": {}
+  "keywords": {}
+  "terms":
+  - "name": "Medication_suppl"
+    "title":
+      "en": "Medication and supplement intake"
+      "fr": "Médicaments et suppléments"
+    "description":
+      "en": "Information about any drugs or medications that treat, prevent or alleviate\
+        \ symptoms of a disease (e.g. Advil, chemotherapy, vitamin C, Ginseng, nicotine\
+        \ patches, vaccination)."
+      "fr": "Informations au sujet de tous médicaments ou suppléments qui traitent,\
+        \ préviennent ou soulagent les symptômes d’une maladie (ex. Advil, chimiothé\
+        rapie, vitamine C, Ginseng, timbres de nicotine, vaccination)."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "Other_pharmacological_inter"
+    "title":
+      "en": "Other and unspecified pharmacological interventions"
+      "fr": "Autres interventions pharmacologiques"
+    "description":
+      "en": "Information about other pharmacological interventions not mentioned above\
+        \ or unspecified pharmacological interventions (e.g. sunscreen)."
+      "fr": "Informations au sujet d’autres interventions pharmacologiques non mentionné\
+        es ci-dessus ou d’interventions pharmacologiques non spécifiées (ex. application\
+        \ de crème solaire)."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+- "name": "Non_pharmacological_interventions"
+  "title":
+    "en": "Non-pharmacological interventions"
+    "fr": "Interventions non-pharmacologiques"
+  "description":
+    "en": "Information about non-pharmacological interventions to treat, manage or\
+      \ prevent diseases or to alleviate symptoms of diseases.\nSee Dom. 9 \"Health\
+      \ and community care services utilization\" for information about the use of\
+      \ services."
+    "fr": "Informations au sujet d’interventions non-pharmacologiques utilisées pour\
+      \ traiter, gérer ou prévenir des maladies ou pour soulager des symptômes. \n\
+      Voir Dom. 9 « Utilisation des services de santé et communautaires » pour des\
+      \ informations en lien avec l’utilisation de services."
+  "attributes": {}
+  "keywords": {}
+  "terms":
+  - "name": "Surgical_inter"
+    "title":
+      "en": "Surgical interventions"
+      "fr": "Interventions chirurgicales"
+    "description":
+      "en": "Information about diagnostic, preventive or therapeutic surgical interventions\
+        \ (e.g. biopsy, removal of gall bladder)."
+      "fr": "Informations au sujet d’interventions chirurgicales diagnostiques, pré\
+        ventives ou thérapeutiques (ex. biopsie, ablation de la vésicule biliaire)."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "Radiological_inter"
+    "title":
+      "en": "Radiological interventions"
+      "fr": "Interventions radiologiques"
+    "description":
+      "en": "Information about diagnostic, preventive or therapeutic radiological\
+        \ interventions (e.g. x-rays, radiation treatment for cancer)."
+      "fr": "Informations au sujet d’interventions radiologiques diagnostiques, pré\
+        ventives ou thérapeutiques (ex. rayons X, traitement de radiothérapie contre\
+        \ le cancer)."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "Biosample_analyses"
+    "title":
+      "en": "Laboratory diagnosis interventions"
+      "fr": "Interventions de diagnostics en laboratoire"
+    "description":
+      "en": "Information about laboratory biosample analyses for diagnostic purposes\
+        \ (e.g. prostate-specific antigen (PSA) test, cholesterol test).\nAlso see\
+        \ Dom. 12 \"Laboratory measures\" for results of laboratory analyses."
+      "fr": "Informations au sujet d’analyses d’échantillons biologiques en laboratoire\
+        \ à des fins de diagnostic (ex. test de l’antigène prostatique spécifique\
+        \ (APS), test de cholestérol).\nVoir aussi Dom. 12 « Mesures de laboratoire\
+        \ » pour les résultats des analyses de laboratoire."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "Other_non_pharmacological_inter"
+    "title":
+      "en": "Other and unspecified non-pharmacological interventions"
+      "fr": "Autres informations en lien avec les interventions non-pharmacologiques"
+    "description":
+      "en": "Information about other non-pharmacological interventions not mentioned\
+        \ above (e.g. dental exam) or unspecified non-pharmacological interventions."
+      "fr": "Informations au sujet d’autres interventions non-pharmacologiques non\
+        \ mentionnées ci-dessus (ex. examen dentaire) ou d’interventions non-pharmacologiques\
+        \ non spécifiées."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+- "name": "Health_community_care_utilization"
+  "title":
+    "en": "Health and community care services utilization"
+    "fr": "Utilisation des services de santé et communautaires"
+  "description":
+    "en": "Information about health services utilization such as medical visits to\
+      \ a healthcare professional, hospitalizations or community care.\nSee Dom. 8\
+      \ \"Non-pharmacological interventions\" for information about specific types\
+      \ of interventions."
+    "fr": "Informations au sujet de l’utilisation des services de santé telle que\
+      \ les visites chez un professionnel de la santé, les hospitalisations ou les\
+      \ soins communautaires.\nVoir Dom. 8 « Interventions non-pharmacologiques »\
+      \ pour des informations en lien avec des types spécifiques d'interventions."
+  "attributes": {}
+  "keywords": {}
+  "terms":
+  - "name": "Visit_health_prof"
+    "title":
+      "en": "Visits to health professionals"
+      "fr": "Consultations de professionnels de la santé"
+    "description":
+      "en": "Information about past and current visits to a general practitioner (e.g.\
+        \ family doctor), dentist or specialist (e.g. pediatric doctor, psychologist)."
+      "fr": "Informations au sujet de visites passées et actuelles chez un médecin\
+        \ généraliste (ex. médecin de famille), un dentiste ou un spécialiste (ex.\
+        \ pédiatre, psychologue)."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+- "name": "Physical_measures"
+  "title":
+    "en": "Physical measures and assessments"
+    "fr": "Mesures et évaluations physiques"
+  "description":
+    "en": "Information about physical functioning. Information in this domain is generally\
+      \ measured.\nSee Dom. 18 \"Administrative information\" for measure-related\
+      \ information (e.g. date of test, arm used)."
+    "fr": "Informations au sujet des fonctions physiques. Les informations dans ce\
+      \ domaine sont généralement mesurées.\nVoir Dom. 18 « Informations administratives\
+      \ » pour des informations en lien avec les mesures (ex. date du test, bras utilisé\
+      )."
+  "attributes": {}
+  "keywords": {}
+  "terms":
+  - "name": "Physical_characteristics"
+    "title":
+      "en": "Physical characteristics"
+      "fr": "Caractéristiques physiques"
+    "description":
+      "en": "Information about physical characteristics (e.g. natural eye and hair\
+        \ colour, hand, foot and eye dominance)."
+      "fr": "Informations au sujet des caractéristiques physiques (ex. couleur naturelle\
+        \ des yeux et des cheveux, dominance manuelle, podale et occulaire)."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "Anthropo_measures"
+    "title":
+      "en": "Anthropometry"
+      "fr": "Anthropométrie"
+    "description":
+      "en": "Information about anthropometry (e.g. height, birth weight). It can include\
+        \ measured and self-reported values."
+      "fr": "Informations au sujet de l’anthopométrie (ex. taille, poids à la naissance).\
+        \ Peut inclure des valeurs mesurées et auto-rapportées."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "Circulation_respiration"
+    "title":
+      "en": "Circulation and respiration"
+      "fr": "Circulation et respiration"
+    "description":
+      "en": "Information about circulation and respiration (e.g. blood pressure, spirometry)."
+      "fr": "Informations au sujet de la circulation et de la respiration (ex. pression\
+        \ sanguine, spirométrie)."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "Muscles_skeleton_mobility"
+    "title":
+      "en": "Muscles, skeleton and mobility"
+      "fr": "Muscles, squelette et mobilité\t"
+    "description":
+      "en": "Information about muscles, bones, movement and mobility (e.g. hand grip\
+        \ strength, timed 10-meter walk test, osteodensitometry)."
+      "fr": "Informations au sujet des muscles, des os, du mouvement et de la mobilité\
+        \ (ex. force de préhension de la main, test de 10 mètres de marche chronomé\
+        tré, ostéodensitométrie)."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "Other_phys_measures"
+    "title":
+      "en": "Other physical measures and assessments"
+      "fr": "Autres mesures et évaluations physiques"
+    "description":
+      "en": "Information about other physical measures (e.g. Apgar, Actiwatch measurements\
+        \ (activity, sleep, wake and light exposure))."
+      "fr": "Informations au sujet d’autres mesures physiques (ex. Apgar, Actiwatch\
+        \ (activité, sommeil, temps d’éveil et exposition à la lumière))."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+- "name": "Cognitive_psychological_measures"
+  "title":
+    "en": "Cognition, personality and psychological measures and assessments"
+    "fr": "Cognition, personnalité et autres mesures et évaluations psychologiques"
+  "description":
+    "en": "Information about cognition, personality and psychological functioning.\n\
+      See Dom. 5 \"Diseases (ICD-10)\" for information about diagnoses.\nSee Dom.\
+      \ 6 \"Symptoms and signs (ICD-10)\", under 'cognition, perception, emotional\
+      \ state and behaviour (R40-R46)', for information about symptoms of psychological\
+      \ distress and emotions.\nSee Dom. 18 \"Administrative information\" for measure-related\
+      \ information (e.g. date of assessment)."
+    "fr": "Informations au sujet de la cognition, de la personnalité et du fonctionnement\
+      \ psychologique.\nVoir Dom. 5 « Maladies (CIM-10) » pour des informations en\
+      \ lien avec les diagnostics.\nVoir Dom. 6 « Symptômes et signes (CIM-10) »,\
+      \ sous 'Symptômes et signes relatifs à la connaissance, la perception, l’humeur\
+      \ et le comportement (R40-R46)', pour des informations en lien avec les symptô\
+      mes de détresse psychologique et les émotions.\nVoir Dom. 18 « Informations\
+      \ administratives » pour des informations en lien avec les mesures (ex. date\
+      \ d’évaluation)."
+  "attributes": {}
+  "keywords": {}
+  "terms":
+  - "name": "Psychological_emotional_distress"
+    "title":
+      "en": "Psychological distress and emotions"
+      "fr": "Détresse psychologique et émotions"
+    "description":
+      "en": "Information about mood collected by questionnaires (e.g. depression,\
+        \ anxiety) rather than diagnosis (contrast to F00-F99). "
+      "fr": "Informations au sujet de l’humeur recueillies par questionnaires (ex.\
+        \ dépression, anxiété) plutôt qu’un diagnostic (par opposition au F00-F99)."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+- "name": "Life_events_plans_beliefs"
+  "title":
+    "en": "Life events, life plans, beliefs and values"
+    "fr": "Événements de vie, plans de vie, croyances et valeurs"
+  "description":
+    "en": "Information about life events, life plans, beliefs and values."
+    "fr": "Informations au sujet des événements de vie, plans de vie, croyances et\
+      \ valeurs."
+  "attributes": {}
+  "keywords": {}
+  "terms":
+  - "name": "Life_events"
+    "title":
+      "en": "Life events"
+      "fr": "Événements de vie"
+    "description":
+      "en": "Information about major (e.g. child abuse, war, death of a friend) and\
+        \ minor (e.g. home renovation) life events."
+      "fr": "Informations au sujet des événements de vie majeurs (ex. maltraitance\
+        \ infantile, guerre, mort d’un ami) et mineurs (ex. travaux de rénovation)."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "Life_plans"
+    "title":
+      "en": "Life plans"
+      "fr": "Plans de vie"
+    "description":
+      "en": "Information about life plans (e.g. future wedding plans, plan to attend\
+        \ university)."
+      "fr": "Informations au sujet des plans de vie (ex. plans de mariage, intention\
+        \ d'aller à l'université)."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "Beliefs_values"
+    "title":
+      "en": "Beliefs and values (under development)"
+      "fr": "Croyances et valeurs (en développement)"
+    "description":
+      "en": "Information about concepts that an individual hold to be true or important,\
+        \ which determine attitudes and opinions (e.g. social views, faith, sense\
+        \ of right and wrong)."
+      "fr": "Informations au sujet des concepts qu’un individu considère comme vrais\
+        \ ou importants, qui déterminent les attitudes et les opinions (ex. opinions\
+        \ sociales, foi, sens du bien et du mal)."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "Other_life_events"
+    "title":
+      "en": "Other life events, plans and beliefs (under development)"
+      "fr": "Autres informations en lien avec les événements de vie, plans et croyances\
+        \ (en développement)"
+    "description":
+      "en": "Information about other events, plans and personal beliefs."
+      "fr": "Informations au sujet d’autres événements, plans et croyances personnelles."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+- "name": "Preschool_school_work"
+  "title":
+    "en": "Preschool, school and work life"
+    "fr": "Vie préscolaire, scolaire et professionnelle"
+  "description":
+    "en": "Information about preschool life, school life and work life."
+    "fr": "Informations au sujet de la vie préscolaire, scolaire et professionnelle."
+  "attributes": {}
+  "keywords": {}
+  "terms":
+  - "name": "Preschool"
+    "title":
+      "en": "Preschool life"
+      "fr": "Vie préscolaire"
+    "description":
+      "en": "Information about the care and daycare environment (e.g. frequency of\
+        \ daycare attendance, person taking care of the child during the day, satisfaction\
+        \ with the care received).\nAlso see Dom. 16 \"Social environment and relationships\"\
+        , under 'Parenting and familial environment' for information about parenting\
+        \ style and behaviours."
+      "fr": "Informations au sujet de l’environnement préscolaire et de garde (ex.\
+        \ fréquence de la présence à la garderie, personne prenant soin de l’enfant\
+        \ durant la journée, satisfaction avec les soins reçus).\nVoir aussi Dom.\
+        \ 16 « Environnement et relations sociales », sous 'Rôle parental et environnement\
+        \ familial' pour des informations en lien avec le style et les comportements\
+        \ parentaux."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "School"
+    "title":
+      "en": "School life"
+      "fr": "Vie scolaire"
+    "description":
+      "en": "Information about the school environment (e.g. participation in school\
+        \ activities, favourite subject, performance, number of days missing school,\
+        \ services and support offered by the school). \nAlso see Dom. 1 \"Socio-demographic\
+        \ and economic characteristics\", under 'Education' for information about\
+        \ the level of education achieved."
+      "fr": "Informations au sujet de l’environnement scolaire (ex. participation\
+        \ aux activités scolaires, matière favorite, performance, nombre de jours\
+        \ d’absentéisme, services et soutien offerts par l'école).\nVoir aussi Dom.\
+        \ 1 « Caractéristiques socio-démographiques et économiques », sous 'Éducation'\
+        \ pour des informations en lien avec le niveau d’éducation atteint."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "Work"
+    "title":
+      "en": "Work life"
+      "fr": "Vie professionnelle"
+    "description":
+      "en": "Information about the job environment (e.g. responsibilities at work,\
+        \ satisfaction with current employment, reasons for reduction in work performance).\n\
+        Also see Dom. 1 \"Socio-demographic and economic characteristics\", under\
+        \ 'Labour force and retirement' for information about employment status."
+      "fr": "Informations sur l’environnement professionnel (ex. responsabilités au\
+        \ travail, satisfaction par rapport à l’emploi actuel, raisons de la réduction\
+        \ de la performance au travail).\nVoir aussi Dom. 1 « Caractéristiques socio-dé\
+        mographiques et économiques », sous 'Emploi et retraite' pour des informations\
+        \ en lien avec l’emploi."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "Other_school_work"
+    "title":
+      "en": "Other preschool, school or work life-related information"
+      "fr": "Autres informations en lien avec la vie préscolaire, scolaire et professionnelle"
+    "description":
+      "en": "Information about other preschool, school or work life-related information."
+      "fr": "Autres informations en lien avec la vie préscolaire, scolaire et professionnelle."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+- "name": "Physical_environment"
+  "title":
+    "en": "Physical environment"
+    "fr": "Environnement physique"
+  "description":
+    "en": "Information about the characteristics of the physical environment and physical\
+      \ or chemical exposures arising from this environment."
+    "fr": "Informations au sujet des caractéristiques de l’environnement physique\
+      \ ou de l’exposition à des éléments physiques et chimiques provenant de cet\
+      \ environnement."
+  "attributes": {}
+  "keywords": {}
+  "terms":
+  - "name": "Radiation_exp"
+    "title":
+      "en": "Radiation exposure"
+      "fr": "Exposition aux radiations"
+    "description":
+      "en": "Information about exposure to radiation (e.g. UV exposure, mobile phone\
+        \ use, frequency of air travel)."
+      "fr": "Informations au sujet de l’exposition aux radiations (ex. exposition\
+        \ aux UV, utilisation du cellulaire, fréquence de voyage en avion)."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "Chemical_exp"
+    "title":
+      "en": "Chemical exposure"
+      "fr": "Exposition aux produits chimiques"
+    "description":
+      "en": "Information about exposure to chemicals by air, food or water (e.g. cigarette\
+        \ and wood smoke, solvents, pesticides, level of chemical pollutant in the\
+        \ air)."
+      "fr": "Informations au sujet de l’exposition aux produits chimiques dans l’\
+        air, la nourriture ou l’eau (ex. fumée de cigarette et de feux de bois, solvants,\
+        \ pesticides, niveau de polluants chimiques dans l’air)."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+- "name": "Administrative_information"
+  "title":
+    "en": "Administrative information"
+    "fr": "Informations administratives"
+  "description":
+    "en": "Information about administrative data."
+    "fr": "Informations au sujet de données administratives."
+  "attributes": {}
+  "keywords": {}
+  "terms":
+  - "name": "Identifiers"
+    "title":
+      "en": "Identifiers"
+      "fr": "Identifiants"
+    "description":
+      "en": "Information about the administrative identification of an individual\
+        \ (e.g. sampling identifier, name of interviewer)."
+      "fr": "Informations au sujet de l’identification administrative d’un individu\
+        \ (ex. identifiant de l’échantillon, nom de l’intervieweur).\n"
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "Date_time_related_info"
+    "title":
+      "en": "Date and time-related information"
+      "fr": "Informations associées à la date et à l’heure"
+    "description":
+      "en": "Information about date and time of questionnaire completion and physical\
+        \ and cognitive measure or biosample collection."
+      "fr": "Informations au sujet de la date et de l’heure auxquelles le questionnaire\
+        \ est complété, la mesure physique ou cognitive est prise ou l’échantillons\
+        \ biologique est collecté."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "Questionnaire_interview_related_info"
+    "title":
+      "en": "Questionnaire and interview-related information"
+      "fr": "Informations associées au questionnaire ou à l’entrevue"
+    "description":
+      "en": "Information about the questionnaire and/or the interview (e.g. language,\
+        \ version, section of the questionnaire, number of individuals present at\
+        \ interview, questionnaire administration method)."
+      "fr": "Informations au sujet du questionnaire et/ou de l’entrevue (ex. langue,\
+        \ version, section du questionnaire, nombre d’individus présents au moment\
+        \ de l’entrevue, méthode d’administration du questionnaire)."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
+  - "name": "Physical_measure_biosamp_related_info"
+    "title":
+      "en": "Physical and cognitive measure and biosample-related information"
+      "fr": "Informations associées aux mesures physiques et cognitives et aux échantillons\
+        \ biologiques"
+    "description":
+      "en": "Information about the physical and cognitive measure and biosample collection\
+        \ (e.g. contextual information about the participant during assessment, biobanking\
+        \ information (number of samples collected, circumstances of specimen analysis),\
+        \ SOP-related information)."
+      "fr": "Informations au sujet des mesures physiques et cognitives et de la collecte\
+        \ des échantillons biologiques (ex. informations contextuelles sur le participant\
+        \ lors de l’évaluation, informations sur la biobanque (nombre d’échantillons\
+        \ collectés, circonstances de l’analyse du spécimen), informations liées aux\
+        \ procédures standardisées)."
+    "attributes": {}
+    "keywords": {}
+    "terms": []
